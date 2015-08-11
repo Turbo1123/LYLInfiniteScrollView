@@ -9,6 +9,7 @@
 #import "LYLInfiniteScrollView.h"
 
 static int const ImageViewCount = 3;
+
 @interface LYLInfiniteScrollView() <UIScrollViewDelegate>
 
 @property (weak, nonatomic) UIScrollView *scrollView;
