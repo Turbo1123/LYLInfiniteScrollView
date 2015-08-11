@@ -1,14 +1,15 @@
 //
 //  AppDelegate.m
-//  LYLInfiniteScrollViewt
+//  LYLInfiniteScrollView
 //
-//  Created by 李云龙 on 15/8/11.
+//  Created by 李云龙 on 15/8/9.
 //  Copyright (c) 2015年 hihilong. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "LYLUIViewController.h"
 @interface AppDelegate ()
+
 
 @end
 
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    LYLUIViewController *rootVC = [[LYLUIViewController alloc]init];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = rootVC;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

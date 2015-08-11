@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4B8845781B79872400C9FE36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8845771B79872400C9FE36 /* main.m */; };
-		4B88457B1B79872400C9FE36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B88457A1B79872400C9FE36 /* AppDelegate.m */; };
-		4B88457E1B79872400C9FE36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B88457D1B79872400C9FE36 /* ViewController.m */; };
-		4B8845811B79872400C9FE36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B88457F1B79872400C9FE36 /* Main.storyboard */; };
 		4B8845831B79872400C9FE36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8845821B79872400C9FE36 /* Images.xcassets */; };
 		4B8845861B79872400C9FE36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B8845841B79872400C9FE36 /* LaunchScreen.xib */; };
 		4B8845921B79872400C9FE36 /* LYLInfiniteScrollViewtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8845911B79872400C9FE36 /* LYLInfiniteScrollViewtTests.m */; };
+		4B8845A01B7987C100C9FE36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B88459B1B7987C100C9FE36 /* AppDelegate.m */; };
+		4B8845A11B7987C100C9FE36 /* LYLInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B88459D1B7987C100C9FE36 /* LYLInfiniteScrollView.m */; };
+		4B8845A21B7987C100C9FE36 /* LYLUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B88459F1B7987C100C9FE36 /* LYLUIViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +31,16 @@
 		4B8845761B79872400C9FE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B8845771B79872400C9FE36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B8845791B79872400C9FE36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4B88457A1B79872400C9FE36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4B88457C1B79872400C9FE36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4B88457D1B79872400C9FE36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4B8845801B79872400C9FE36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B8845821B79872400C9FE36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4B8845851B79872400C9FE36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4B88458B1B79872400C9FE36 /* LYLInfiniteScrollViewtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYLInfiniteScrollViewtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8845901B79872400C9FE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B8845911B79872400C9FE36 /* LYLInfiniteScrollViewtTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLInfiniteScrollViewtTests.m; sourceTree = "<group>"; };
+		4B88459B1B7987C100C9FE36 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B88459C1B7987C100C9FE36 /* LYLInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLInfiniteScrollView.h; sourceTree = "<group>"; };
+		4B88459D1B7987C100C9FE36 /* LYLInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLInfiniteScrollView.m; sourceTree = "<group>"; };
+		4B88459E1B7987C100C9FE36 /* LYLUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLUIViewController.h; sourceTree = "<group>"; };
+		4B88459F1B7987C100C9FE36 /* LYLUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLUIViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +83,11 @@
 			isa = PBXGroup;
 			children = (
 				4B8845791B79872400C9FE36 /* AppDelegate.h */,
-				4B88457A1B79872400C9FE36 /* AppDelegate.m */,
-				4B88457C1B79872400C9FE36 /* ViewController.h */,
-				4B88457D1B79872400C9FE36 /* ViewController.m */,
-				4B88457F1B79872400C9FE36 /* Main.storyboard */,
+				4B88459B1B7987C100C9FE36 /* AppDelegate.m */,
+				4B88459C1B7987C100C9FE36 /* LYLInfiniteScrollView.h */,
+				4B88459D1B7987C100C9FE36 /* LYLInfiniteScrollView.m */,
+				4B88459E1B7987C100C9FE36 /* LYLUIViewController.h */,
+				4B88459F1B7987C100C9FE36 /* LYLUIViewController.m */,
 				4B8845821B79872400C9FE36 /* Images.xcassets */,
 				4B8845841B79872400C9FE36 /* LaunchScreen.xib */,
 				4B8845751B79872400C9FE36 /* Supporting Files */,
@@ -199,7 +201,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B8845811B79872400C9FE36 /* Main.storyboard in Resources */,
 				4B8845861B79872400C9FE36 /* LaunchScreen.xib in Resources */,
 				4B8845831B79872400C9FE36 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B88457E1B79872400C9FE36 /* ViewController.m in Sources */,
-				4B88457B1B79872400C9FE36 /* AppDelegate.m in Sources */,
+				4B8845A01B7987C100C9FE36 /* AppDelegate.m in Sources */,
 				4B8845781B79872400C9FE36 /* main.m in Sources */,
+				4B8845A21B7987C100C9FE36 /* LYLUIViewController.m in Sources */,
+				4B8845A11B7987C100C9FE36 /* LYLInfiniteScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +246,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4B88457F1B79872400C9FE36 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B8845801B79872400C9FE36 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B8845841B79872400C9FE36 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
